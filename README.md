@@ -24,3 +24,12 @@ For this project I've used Google Cloud Platform.
 2. Then Apache servers send its apache logs to Graylog
 3. Graylog ingests the logs
 4. Apache Logs are then parse by a pipeline and stored in their designated stream
+
+# Refrences
+http://httpd.apache.org/docs/
+https://docs.graylog.org/docs/streams
+https://docs.graylog.org/docs/pipelines
+https://docs.graylog.org/docs/pipelines#
+https://en.wikipedia.org/wiki/Rsyslog
+https://en.wikipedia.org/wiki/WordPress
+https://en.wikipedia.org/wiki/Apache
