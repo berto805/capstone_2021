@@ -25,6 +25,15 @@ For this project I've used Google Cloud Platform.
 3. Graylog ingests the logs
 4. Apache Logs are then parse by a pipeline and stored in their designated stream
 
+In order for apache to send logs we need to configure it on the apache config file. The logformat that im using is here as followed (hyphens will be displayed if output is not available):
+* %v - the name of the server being used 
+* %h - this is the IP of the client 
+* %u - userid of the person requesting the information 
+* %t - the timestamp of when the request was made 
+* %r - the request line from the client 
+
+Graylog the management log tool. In the console I’ve created some pipelines and Streams to help dissect my data. Pipelines are used as code to parse the data coming in. Streams are used to route messages into categories
+
 # Future Implementation
 
 Graylog is a powerful tool that offers ways to help companies in grow and secure systems. I would like to work on several implementations with this tool:
