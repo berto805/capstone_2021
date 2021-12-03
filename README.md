@@ -34,6 +34,10 @@ Graylog is a powerful tool that offers ways to help companies in grow and secure
 4. Create a graph that will help in the analytics portion which will provide geographical and most visited websites data.
 5. Create a dashboard for Security Incidents that will assist administrators with identifying the origin of the threats
 
+# Conclusion
+
+Graylog can greatly minimize the tools used in corporate environments. Why would companies waste time cross training new and existing employees with several tools when Graylog can provide that and more on a budget. Graylog is a user friendly tool that will help users disect and troubleshoot issues quickly. With all the functionalities provided by Graylog you can create graphs, charts, tables, alerts and many more. Configuring the servers properly can go a long way in Graylog. Overall having a centralized location for storing logs is crucial in any corporate IT environment as having to use several tools to find the same data will inevitably cause issues for IT personnel. 
+
 
 # Refrences
 1. http://httpd.apache.org/docs/
