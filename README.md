@@ -26,10 +26,10 @@ For this project I've used Google Cloud Platform.
 4. Apache Logs are then parse by a pipeline and stored in their designated stream
 
 # Refrences
-http://httpd.apache.org/docs/
-https://docs.graylog.org/docs/streams
-https://docs.graylog.org/docs/pipelines
-https://docs.graylog.org/docs/pipelines#
-https://en.wikipedia.org/wiki/Rsyslog
-https://en.wikipedia.org/wiki/WordPress
-https://en.wikipedia.org/wiki/Apache
+1. http://httpd.apache.org/docs/
+2. https://docs.graylog.org/docs/streams
+3. https://docs.graylog.org/docs/pipelines
+4. https://docs.graylog.org/docs/pipelines#
+5. https://en.wikipedia.org/wiki/Rsyslog
+6. https://en.wikipedia.org/wiki/WordPress
+7. https://en.wikipedia.org/wiki/Apache
