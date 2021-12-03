@@ -1,0 +1,27 @@
+rule "Parse Apache Access Log Fields"
+when
+    true
+then
+    let site = split("####",to_string($message.message))[1];
+    let source_ip = split("####",to_string($message.message))[2];
+    let x_forwarded_for = split("####",to_string($message.message))[3];
+    let remote_user = split("####",to_string($message.message))[5];
+    let uri = split("####",to_string($message.message))[7];
+    let http_status = split("####",to_string($message.message))[8];
+    let bytes_sent = split("####",to_string($message.message))[9];
+    let referer = split("####",to_string($message.message))[10];
+    
+    let x_forwarded_for = replace(to_string(x_forwarded_for), "\"", "");
+    let referer = replace(to_string(referer), "\"", "");
+    
+    set_field("site",site);
+    set_field("source_ip",source_ip);
+    set_field("x_forwarded_for",x_forwarded_for);
+    set_field("remote_user",remote_user);
+    set_field("uri",uri);
+    set_field("http_status",http_status);
+    set_field("bytes_sent",bytes_sent);
+    set_field("referer",referer);
+
+    
+end
