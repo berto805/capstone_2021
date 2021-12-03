@@ -20,7 +20,7 @@ For this project I've used Google Cloud Platform.
 
 # Process Flow
 
-1.The end user hits the Apache servers that are serving Wordpress websites. 
-2.Then Apache servers send its apache logs to Graylog
-3.Graylog ingests the logs
-4.Apache Logs are then parse by a pipeline and stored in their designated stream
+1. The end user hits the Apache servers that are serving Wordpress websites. 
+2. Then Apache servers send its apache logs to Graylog
+3. Graylog ingests the logs
+4. Apache Logs are then parse by a pipeline and stored in their designated stream
