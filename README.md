@@ -25,6 +25,16 @@ For this project I've used Google Cloud Platform.
 3. Graylog ingests the logs
 4. Apache Logs are then parse by a pipeline and stored in their designated stream
 
+# Future Implementation
+
+Graylog is a powerful tool that offers ways to help companies in grow and secure systems. I would like to work on several implementations with this tool:
+1. Configure PHP to forward logs to Graylog
+2. Configure MySQL to forward logs to Graylog
+3. Create pipelines that will help alerting when there is a cyber security threat
+4. Create a graph that will help in the analytics portion which will provide geographical and most visited websites data.
+5. Create a dashboard for Security Incidents that will assist administrators with identifying the origin of the threats
+
+
 # Refrences
 1. http://httpd.apache.org/docs/
 2. https://docs.graylog.org/docs/streams
