@@ -12,3 +12,8 @@ Graylog allows organizations to have a centralized log location for all the logs
 # Software
 
 For this project I've used Google Cloud Platform.
+
+* Apache
+* Rsyslog
+* Graylog
+* WordPress
